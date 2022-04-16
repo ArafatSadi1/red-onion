@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import SocialLogin from "../SocialLogin/SocialLogin";
 
 const Login = () => {
@@ -15,6 +16,7 @@ const Login = () => {
           <Form.Group className="mb-3" controlId="formBasicPassword">
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
+          <p>New in Red Onion? <Link className="text-decoration-none" to="/signup">Please Register</Link></p>
           <Button
             className="w-50 mx-auto d-block"
             variant="danger"

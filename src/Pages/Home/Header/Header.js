@@ -9,12 +9,12 @@ const Header = () => {
         setSearchText(text);
     }
   return (
-    <div className="mb-5">
+    <div id="banner" className="mb-5">
       <Card.Img src={banner} alt="Card image" />
       <Card.ImgOverlay style={{height: 500}} className="d-flex justify-content-center mt-5">
         <div className="mt-5 pt-5">
           <h2 className="text-center">Best food waiting for your belly</h2>
-          <InputGroup onBlur={getInputText} className="mb-3 w-100 mx-auto rounded-pill">
+          <InputGroup onBlur={getInputText} className="mb-3 w-100 mx-auto">
             <FormControl
               placeholder="Search your food"
             />

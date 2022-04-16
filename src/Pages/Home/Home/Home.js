@@ -1,6 +1,7 @@
 import React from "react";
-import FoodItems from "../FoodItems/FoodItems";
+import FoodItems from "../FoodContainer/FoodContainer";
 import Header from "../Header/Header";
+import Lunch from "../Lunch/Lunch";
 
 const Home = () => {
   return (
